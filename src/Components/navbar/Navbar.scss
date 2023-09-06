@@ -1,0 +1,47 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .navbar_icons {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+
+    .navbar_notification {
+      position: relative;
+      span {
+        width: 16px;
+        height: 16px;
+        font-size: 12px;
+        background-color: red;
+        border-radius: 50%;
+        color: white;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .navbar_user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}
